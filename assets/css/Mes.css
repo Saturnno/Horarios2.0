@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#cuerpo{
+    background-color: aqua;
+    overflow-y: hidden;
+
+}
+
+#b{
+    border: 30px solid black;
+    color: white;
+    
+}
