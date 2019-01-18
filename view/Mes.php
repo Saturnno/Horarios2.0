@@ -18,10 +18,10 @@
 
 </head>
 <body>
-    <div id="cabeza" class="container">
+    <div id="All" class="container">
         <div class="row">
-            <div id="b" class="col-12">
-
+            <div id="BSG" class="col-12">
+                
             </div>
         </div>
     </div>
