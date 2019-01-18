@@ -1,7 +1,50 @@
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
 
 body{
     
+}
+.nav{
+    background-color: #883045;
+    
+}
+.nav .menu-item{
+    height: 40px;
+    color: white;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    border-right: 1px solid white;
+}
+.nav h5, h4{
+    font-weight: 400;
+}
+.nav .item-button:hover{
+    background-color: white;
+    color: #883045;
+    cursor: pointer;
+    
+}
+.item-button ul li{
+    list-style: none;
+    text-align: left;
+    padding: 5px 10px;
+}
+.item-button ul li:hover{
+    background-color: rgb(66, 139, 202);
+    color: white;
+}
+.item-button ul{
+    width: 100%;
+    padding-left: 0px;
+    padding: 0px !important;
+}
+.submenu{
+    display: none;
+}
+.menu-submenu:hover > .submenu{
+    display: block;
+}
+footer .container{
+    border-top: 1px solid #989898;
+    margin-top: 30px;
 }
