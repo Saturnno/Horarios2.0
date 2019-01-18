@@ -41,8 +41,10 @@ body{
 .submenu{
     display: none;
 }
+
 .menu-submenu:hover > .submenu{
     display: block;
+    
 }
 footer .container{
     border-top: 1px solid #989898;
