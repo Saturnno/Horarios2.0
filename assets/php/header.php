@@ -1,5 +1,5 @@
 <?php
-    function header(){
+    function get_header(){
         echo '<div class="container-fluid">
            
             <div class="nav row">
@@ -37,5 +37,13 @@
                 
             </div>
         </div>';
+    }
+    function get_footer() {
+        echo '<footer>
+            <div class="container">
+                 <p>&copy; 2019 - Aplicación Cargas Academicas</p>
+            </div>
+            
+         </footer>';
     }
 ?>
