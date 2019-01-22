@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.table {
+    
+}
+
+#example.dataTable thead th {
+  border: 0;
+}
+
+
+#example.dataTable tbody td {
+  border: 0;
+}

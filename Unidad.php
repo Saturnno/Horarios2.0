@@ -4,6 +4,7 @@
         <title>Horarios</title>
 
         <link rel="stylesheet" href="../Horarios2.0/assets/css/estilos.css">
+           <link rel="stylesheet" href="../Horarios2.0/assets/css/estilosUnidad.css">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="
@@ -27,7 +28,9 @@
     <body>
         <?php get_header();?>
          
+        <div class="sticky-bottom">
         <div class="container">
+            <button type="button" class="btn btn-light">Agregar</button>
          <table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
@@ -36,26 +39,22 @@
                 <th>Director</th>
                 <th>Telefono</th>
                 <th>Correo</th>
-                
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011/04/25</td>
-                
-            </tr>
-        </tbody>
+       
         </table>
+        </div>
         </div>
         <?php get_footer();?>
     </body>
 <script>
-    $(document).ready( function () {
-    $('#example').DataTable();
+    $(document).ready(function() {
+    $('#example').DataTable( {
+        "paging":   false,
+        "ordering": false,
+        "info":     false, 
+        "ajax": "../Horarios2.0/assets/php/data.php"
+    } );
 } );
 </script>
 </html>
